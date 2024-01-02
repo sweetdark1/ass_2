@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Borussia Dortmund App</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="register">Register</string>
+    <string name="b">Borussia </string>
+    <string name="v">Dortmund </string>
+    <string name="a">App </string>
+</resources>
