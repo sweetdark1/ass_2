@@ -7,4 +7,10 @@
     <string name="b">Borussia </string>
     <string name="v">Dortmund </string>
     <string name="a">App </string>
+    <string name="title_activity_root">RootActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="german">Bundsliga standings</string>
+    <string name="english">Primer leuage standings</string>
 </resources>

@@ -30,7 +30,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SecondActivity extends AppCompatActivity {
+public class ThirdActivity extends AppCompatActivity {
     ArrayList<Standings> stand = new ArrayList<>();
     private TableLayout tableLayout;
 
@@ -39,7 +39,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second2);
+        setContentView(R.layout.activity_third);
         tableLayout = (TableLayout) findViewById(R.id.standings);
         queue = Volley.newRequestQueue(this);
         APIInvoke();
@@ -47,7 +47,7 @@ public class SecondActivity extends AppCompatActivity {
 
 
     public void requestWithSomeHttpHeaders() {
-        String url = "https://api.football-data.org/v4/competitions/BL1/standings";
+        String url = "https://api.football-data.org/v4/competitions/PL/standings";
         StringRequest getRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override

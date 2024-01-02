@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navActivity">
+    <Button
+        android:id="@+id/german"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/german"
+        android:textSize="18sp"
+        android:onClick="ger"/>
+    <Button
+        android:id="@+id/english"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/english"
+        android:textSize="18sp"
+        android:layout_toEndOf="@+id/german"
+        android:onClick="eng"/>
+</RelativeLayout>

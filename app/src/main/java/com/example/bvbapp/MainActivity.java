@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loginRedirect() {
-        Intent i = new Intent(getApplicationContext(),SecondActivity.class);
+        Intent i = new Intent(getApplicationContext(),navActivity.class);
         startActivity(i);
     }
 
